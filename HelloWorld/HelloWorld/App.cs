@@ -27,7 +27,8 @@ namespace HelloWorld
                 }
             };
 
-            MainPage = new NavigationPage(content);
+            //MainPage = new NavigationPage(content);
+            MainPage = new GreetPage();
         }
 
         protected override void OnStart()

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.GreetPage">
+  <ContentPage.Padding >
+
+    <OnPlatform x:TypeArguments ="Thickness"
+      iOS="0,20,0,0"
+      >
+
+    </OnPlatform>
+
+  </ContentPage.Padding>
+
+
+  <!--<Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />-->
+  <!--<Button HorizontalOptions ="Center" VerticalOptions="Center" Text ="Click Me" Clicked="Button_OnClicked"></Button>-->
+
+  <StackLayout HorizontalOptions ="Center"
+               VerticalOptions ="Center"
+               BindingContext ="x:Reference slider">
+    <BoxView Color="Green" Opacity="{Binding Value}"></BoxView>
+    <Label
+            Text ="{Binding Value ,
+           StringFormat='Value is {0:F2}'}"
+           
+           Opacity="{Binding Value}"
+           
+           />
+
+    <Slider x:Name="slider"  />
+  </StackLayout>
+
+</ContentPage>
