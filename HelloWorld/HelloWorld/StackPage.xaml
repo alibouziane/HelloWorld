@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+  Padding ="0,20,0,0"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.StackPage">
+
+
+  <!--<StackLayout
+               VerticalOptions ="Center"
+               HorizontalOptions ="Center"
+               Orientation ="Horizontal"
+               Spacing ="20"
+               Padding ="40">
+    <StackLayout>
+      <Image Source="http://placehold.it/100x100" />
+      <Label Text="Label 1" />
+    </StackLayout>
+    <StackLayout>
+      <Image Source="http://placehold.it/100x100" />
+      <Label Text="Label 2" />
+    </StackLayout>
+    <StackLayout>
+      <Image Source="http://placehold.it/100x100" />
+      <Label Text="Label 3" />
+    </StackLayout>
+  </StackLayout>-->
+
+</ContentPage>
