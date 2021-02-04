@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.ListPageDemo">
+
+    <!--<ListView x:Name="listView" HasUnevenRows="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                -->
+    <!--<ImageCell  Text="{Binding Name}" Detail="{Binding Status}" ImageSource ="{Binding ImageUrl}" ></ImageCell>-->
+    <!--
+                <ViewCell >
+                    <StackLayout Orientation ="Horizontal"  Padding ="5">
+                        <Image Source="{Binding ImageUrl }"/>
+                        <StackLayout HorizontalOptions ="StartAndExpand">
+                            <Label Text="{Binding Name}"/>
+                            <Label Text="{Binding Status}" TextColor="Gray"/>
+                        </StackLayout>
+                        <Button  Text="Follow"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+
+        </ListView.ItemTemplate>
+    </ListView>-->
+
+
+    <!--<ListView x:Name="listView" HasUnevenRows="True" IsGroupingEnabled="True" GroupDisplayBinding ="{Binding Title}" GroupShortNameBinding ="{Binding ShorTitle}">-->
+    <!--<ListView x:Name="listView" ItemTapped="ListView_OnItemTapped" ItemSelected ="ListView_OnItemSelected" >-->
+
+
+    <!--glisser Context Action-->
+    <!--<ListView x:Name="listView"  >
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell  Text="{Binding Name}" Detail="{Binding Status}"  >
+                    <TextCell.ContextActions> 
+                        <MenuItem Text="Call" Clicked="Call_OnClicked" CommandParameter ="{Binding .}"/>
+                        <MenuItem Text="Delete" Clicked="Delete_OnClicked" IsDestructive ="True" CommandParameter ="{Binding .}"/>
+                    </TextCell.ContextActions>
+                </TextCell>
+
+            </DataTemplate>
+
+        </ListView.ItemTemplate>
+    </ListView>-->
+
+    <!--Pull to refresh-->
+    <!--<ListView x:Name="listView" IsPullToRefreshEnabled ="True" Refreshing ="ListView_OnRefreshing"  >
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell  Text="{Binding Name}" Detail="{Binding Status}"  >
+                    
+                </TextCell>
+
+            </DataTemplate>
+
+        </ListView.ItemTemplate>
+    </ListView>-->
+
+    <!--Search Bar-->
+    <StackLayout>
+        <SearchBar Placeholder ="Search..." TextChanged="SearchBar_OnTextChanged"/>
+        <ListView x:Name="listView"   >
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell  Text="{Binding Name}" Detail="{Binding Status}"  >
+
+                    </TextCell>
+
+                </DataTemplate>
+
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
