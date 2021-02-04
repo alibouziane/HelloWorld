@@ -12,7 +12,7 @@ namespace HelloWorld
         public App()
         {
 
-            MainPage = new ImagePage2();
+            MainPage = new ImageExercise();
 
         }
 
