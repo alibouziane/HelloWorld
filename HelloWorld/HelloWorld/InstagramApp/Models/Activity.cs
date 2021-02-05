@@ -1,4 +1,4 @@
-﻿namespace HelloWorld.Models
+﻿namespace HelloWorld.InstagramApp.Models
 {
 	public class Activity
 	{

@@ -1,4 +1,4 @@
-﻿namespace InstagramApp
+﻿namespace HelloWorld.InstagramApp.Models
 {
 	public class User
 	{

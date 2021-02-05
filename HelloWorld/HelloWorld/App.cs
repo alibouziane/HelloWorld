@@ -20,7 +20,7 @@ namespace HelloWorld
             //};
 
             //MainPage = new NavigationPage(new ContactsPage());
-            MainPage = new NavigationPage(new ToolBarMainPage());
+            MainPage = new NavigationPage(new InstagramApp.MainPage());
 
 
 

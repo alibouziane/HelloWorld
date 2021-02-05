@@ -60,6 +60,12 @@
     <Compile Include="Demo.xaml.cs">
       <DependentUpon>Demo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InstagramApp\ActivityFeedPage.xaml.cs">
+      <DependentUpon>ActivityFeedPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InstagramApp\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GreetPage.xaml.cs">
       <DependentUpon>GreetPage.xaml</DependentUpon>
     </Compile>
@@ -84,6 +90,12 @@
     <Compile Include="ImagePage3.xaml.cs">
       <DependentUpon>ImagePage3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InstagramApp\MyProfilePage.xaml.cs">
+      <DependentUpon>MyProfilePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InstagramApp\UserProfilePage.xaml.cs">
+      <DependentUpon>UserProfilePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="IntroductionPage.xaml.cs">
       <DependentUpon>IntroductionPage.xaml</DependentUpon>
     </Compile>
@@ -103,12 +115,12 @@
     <Compile Include="MasterContactsPage.xaml.cs">
       <DependentUpon>MasterContactsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\Activity.cs" />
+    <Compile Include="InstagramApp\Models\Activity.cs" />
     <Compile Include="Models\Contact.cs" />
     <Compile Include="Models\ContactGroup.cs" />
     <Compile Include="Models\Search.cs" />
     <Compile Include="Models\SearchGroup.cs" />
-    <Compile Include="Models\User.cs" />
+    <Compile Include="InstagramApp\Models\User.cs" />
     <Compile Include="PopMainPage.xaml.cs">
       <DependentUpon>PopMainPage.xaml</DependentUpon>
     </Compile>
@@ -122,7 +134,9 @@
     <Compile Include="RelativePage.xaml.cs">
       <DependentUpon>RelativePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Service\ActivityService.cs" />
     <Compile Include="Service\SearchService.cs" />
+    <Compile Include="Service\UserService.cs" />
     <Compile Include="StackLayoutExercise1.xaml.cs">
       <DependentUpon>StackLayoutExercise1.xaml</DependentUpon>
     </Compile>
@@ -360,6 +374,30 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ToolBarMainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="InstagramApp\MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="InstagramApp\ActivityFeedPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="InstagramApp\UserProfilePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="InstagramApp\MyProfilePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
