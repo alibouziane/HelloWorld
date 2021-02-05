@@ -45,6 +45,18 @@
       <DependentUpon>AbsolutePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.cs" />
+    <Compile Include="CarouselMainPage.xaml.cs">
+      <DependentUpon>CarouselMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContactDetailPage.xaml.cs">
+      <DependentUpon>ContactDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContactsPage.xaml.cs">
+      <DependentUpon>ContactsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContentPage1.xaml.cs">
+      <DependentUpon>ContentPage1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Demo.xaml.cs">
       <DependentUpon>Demo.xaml</DependentUpon>
     </Compile>
@@ -72,17 +84,34 @@
     <Compile Include="ImagePage3.xaml.cs">
       <DependentUpon>ImagePage3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="IntroductionPage.xaml.cs">
+      <DependentUpon>IntroductionPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ListExercisePage.xaml.cs">
       <DependentUpon>ListExercisePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ListPageDemo.xaml.cs">
       <DependentUpon>ListPageDemo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MarkupExtentions\EmbeddedImage.cs" />
+    <Compile Include="MasterContactDetailPage.xaml.cs">
+      <DependentUpon>MasterContactDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MasterContactsPage.xaml.cs">
+      <DependentUpon>MasterContactsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Activity.cs" />
     <Compile Include="Models\Contact.cs" />
     <Compile Include="Models\ContactGroup.cs" />
     <Compile Include="Models\Search.cs" />
     <Compile Include="Models\SearchGroup.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="PopMainPage.xaml.cs">
+      <DependentUpon>PopMainPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuotesPage.xaml.cs">
       <DependentUpon>QuotesPage.xaml</DependentUpon>
@@ -102,6 +131,12 @@
     </Compile>
     <Compile Include="StackPage.xaml.cs">
       <DependentUpon>StackPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ToolBarMainPage.xaml.cs">
+      <DependentUpon>ToolBarMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomePage.xaml.cs">
+      <DependentUpon>WelcomePage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -259,6 +294,72 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ListExercisePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WelcomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IntroductionPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContactsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContactDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MasterContactDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MasterContactsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CarouselMainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PopMainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ToolBarMainPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

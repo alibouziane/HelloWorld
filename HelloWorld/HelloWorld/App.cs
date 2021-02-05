@@ -12,7 +12,17 @@ namespace HelloWorld
         public App()
         {
 
-            MainPage = new ListExercisePage();
+            //MainPage = new ListExercisePage();
+            //MainPage = new NavigationPage(new WelcomePage())
+            //{
+            //    BarBackgroundColor = Color.Gray,
+            //    BarTextColor = Color.White
+            //};
+
+            //MainPage = new NavigationPage(new ContactsPage());
+            MainPage = new NavigationPage(new ToolBarMainPage());
+
+
 
         }
 

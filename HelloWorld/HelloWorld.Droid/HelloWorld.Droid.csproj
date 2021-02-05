@@ -141,6 +141,13 @@
     <AndroidResource Include="Resources\drawable-xhdpi\right" />
     <AndroidResource Include="Resources\drawable-xxhdpi\left" />
     <AndroidResource Include="Resources\drawable-xxhdpi\right" />
+    <AndroidResource Include="Resources\drawable-xhdpi\heart.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\user.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\heart.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\user.png" />
+    <Content Include="Resources\drawable\heart.png" />
+    <Content Include="Resources\drawable-hdpi\heart.png" />
+    <Content Include="Resources\drawable-hdpi\user.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon.png" />
@@ -173,6 +180,21 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxhdpi\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xhdpi\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxhdpi\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\user.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.2.0.45\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.2.0.45\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
