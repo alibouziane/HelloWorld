@@ -22,7 +22,8 @@ namespace HelloWorld
             //MainPage = new NavigationPage(new ContactsPage());
             //MainPage = new NavigationPage(new InstagramApp.MainPage());
             //MainPage = new FormsAndSettings.MainPage();
-            MainPage = new NavigationPage(new FormsAndSettings.MainPage2());
+            //MainPage = new NavigationPage(new FormsAndSettings.MainPage2());
+            MainPage = new NavigationPage(new ContactBook.Views.ContactsPage());
 
 
         }
