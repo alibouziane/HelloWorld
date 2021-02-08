@@ -60,6 +60,21 @@
     <Compile Include="Demo.xaml.cs">
       <DependentUpon>Demo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Extensions\DateCell.xaml.cs">
+      <DependentUpon>DateCell.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormsAndSettings\ContactMethodsPage.xaml.cs">
+      <DependentUpon>ContactMethodsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormsAndSettings\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormsAndSettings\MainPage1.xaml.cs">
+      <DependentUpon>MainPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormsAndSettings\MainPage2.xaml.cs">
+      <DependentUpon>MainPage2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="InstagramApp\ActivityFeedPage.xaml.cs">
       <DependentUpon>ActivityFeedPage.xaml</DependentUpon>
     </Compile>
@@ -398,6 +413,36 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="InstagramApp\MyProfilePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormsAndSettings\MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormsAndSettings\MainPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormsAndSettings\MainPage2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Extensions\DateCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormsAndSettings\ContactMethodsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
