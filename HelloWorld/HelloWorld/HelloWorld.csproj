@@ -64,6 +64,9 @@
     <Compile Include="ContentPage1.xaml.cs">
       <DependentUpon>ContentPage1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Data Access\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Demo.xaml.cs">
       <DependentUpon>Demo.xaml</DependentUpon>
     </Compile>
@@ -462,6 +465,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ContactBook\Views\ContactDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data Access\MainPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
