@@ -157,6 +157,22 @@
     <Compile Include="Models\Search.cs" />
     <Compile Include="Models\SearchGroup.cs" />
     <Compile Include="InstagramApp\Models\User.cs" />
+    <Compile Include="MvvmContactBook\Models\Contact.cs" />
+    <Compile Include="MvvmContactBook\Persistence\ISQLiteDb.cs" />
+    <Compile Include="MvvmContactBook\Persistence\SQLiteContactStore.cs" />
+    <Compile Include="MvvmContactBook\ViewModels\BaseViewModel.cs" />
+    <Compile Include="MvvmContactBook\ViewModels\ContactDetailViewModel.cs" />
+    <Compile Include="MvvmContactBook\ViewModels\ContactsPageViewModel.cs" />
+    <Compile Include="MvvmContactBook\ViewModels\ContactViewModel.cs" />
+    <Compile Include="MvvmContactBook\ViewModels\IContactStore.cs" />
+    <Compile Include="MvvmContactBook\ViewModels\IPageService.cs" />
+    <Compile Include="MvvmContactBook\ViewModels\PageService.cs" />
+    <Compile Include="MvvmContactBook\Views\ContactDetailPage.xaml.cs">
+      <DependentUpon>ContactDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MvvmContactBook\Views\ContactsPage.xaml.cs">
+      <DependentUpon>ContactsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MvvmDemo\Models\Playlist.cs" />
     <Compile Include="MvvmDemo\ViewModels\BaseViewModel.cs" />
     <Compile Include="MvvmDemo\ViewModels\IPageService.cs" />
@@ -582,6 +598,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MvvmDemo\Views\PlaylistDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MvvmContactBook\Views\ContactsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MvvmContactBook\Views\ContactDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
