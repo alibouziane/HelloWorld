@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using HelloWorld.MvvmDemo.Views;
 using Xamarin.Forms;
 
 namespace HelloWorld
@@ -26,7 +26,8 @@ namespace HelloWorld
             //MainPage = new NavigationPage(new InstagramApp.MainPage());
             //MainPage = new FormsAndSettings.MainPage();
             //MainPage = new NavigationPage(new FormsAndSettings.MainPage2());
-            MainPage =  new NavigationPage(new NetFlixRoulette.Views.MoviesPage());
+            //MainPage =  new NavigationPage(new NetFlixRoulette.Views.MoviesPage());
+            MainPage = new NavigationPage(new PlaylistsPage());
 
 
 

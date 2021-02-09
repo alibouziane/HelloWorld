@@ -157,6 +157,18 @@
     <Compile Include="Models\Search.cs" />
     <Compile Include="Models\SearchGroup.cs" />
     <Compile Include="InstagramApp\Models\User.cs" />
+    <Compile Include="MvvmDemo\Models\Playlist.cs" />
+    <Compile Include="MvvmDemo\ViewModels\BaseViewModel.cs" />
+    <Compile Include="MvvmDemo\ViewModels\IPageService.cs" />
+    <Compile Include="MvvmDemo\ViewModels\PageService.cs" />
+    <Compile Include="MvvmDemo\ViewModels\PlaylistsViewModel.cs" />
+    <Compile Include="MvvmDemo\ViewModels\PlaylistViewModel.cs" />
+    <Compile Include="MvvmDemo\Views\PlaylistDetailPage.xaml.cs">
+      <DependentUpon>PlaylistDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MvvmDemo\Views\PlaylistsPage.xaml.cs">
+      <DependentUpon>PlaylistsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="NetFlixRoulette\Models\Movie.cs" />
     <Compile Include="NetFlixRoulette\Services\MovieService.cs" />
     <Compile Include="NetFlixRoulette\Views\MovieDetailsPage.xaml.cs">
@@ -558,6 +570,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="NetFlixRoulette\Views\MovieDetailsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MvvmDemo\Views\PlaylistsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MvvmDemo\Views\PlaylistDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
