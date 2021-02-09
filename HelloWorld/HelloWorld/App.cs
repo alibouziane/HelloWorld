@@ -27,8 +27,8 @@ namespace HelloWorld
             //MainPage = new FormsAndSettings.MainPage();
             //MainPage = new NavigationPage(new FormsAndSettings.MainPage2());
             //MainPage =  new NavigationPage(new NetFlixRoulette.Views.MoviesPage());
-            //MainPage = new NavigationPage(new PlaylistsPage());
-            MainPage = new NavigationPage(new MvvmContactBook.Views.ContactsPage());
+            MainPage = new NavigationPage(new PlaylistsPage());
+            //MainPage = new NavigationPage(new MvvmContactBook.Views.ContactsPage());
 
 
 
